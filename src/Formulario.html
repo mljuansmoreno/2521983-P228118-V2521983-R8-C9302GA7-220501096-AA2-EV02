@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Registro de clientes</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="diseñoFormulario.css">
 
@@ -25,9 +26,25 @@
         <input type="text" id="fechaCumple" name="fechaCumple" required>
         <br>
         <br>
-        <div style="text-align: center;">
-            <input type="submit" value="Insertar">
         </div>
+        <button onclick="consultarClientes()">Consultar</button>
+        <button onclick="insertar()">Insertar</button>
+        <button onclick="eliminar()">Eliminar</button>
+        <button onclick="modificar()">Modificar</button>
+
+        <div id="resultado"></div>
+
+        <!-- call javascript file caled botones.js -->
+        <script src="botones.js"></script>
+    
+    
+    </body>
+    
+    
+    
+    
+    
+    
         
     </form>
 </body>

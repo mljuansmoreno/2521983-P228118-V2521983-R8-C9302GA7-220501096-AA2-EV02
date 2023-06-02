@@ -16,6 +16,9 @@ form {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px #ddd8e21a;
+    border-right: 15px solid #ffffff;
+    
+    
 }
 
 label {
@@ -34,13 +37,23 @@ input[type="email"] {
     border: 1px solid #cdcbda;
 }
 
-input[type="submit"] {
+/* input[type="submit"] {
     background-color: #4caf50;
     color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+} */
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
 }
 
 input[type="submit"]:hover {
