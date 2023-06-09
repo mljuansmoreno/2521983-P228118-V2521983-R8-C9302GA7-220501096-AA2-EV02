@@ -1,7 +1,8 @@
 function consultarClientes() {
     $.ajax({
-        url: "consultar.jsp",
+        url: "consultar.jsp", // Reemplazar por la URL correcta o la ruta del archivo JSP
         type: "GET",
+        dataType: "html", // Especificar el tipo de datos esperado en la respuesta
         success: function(response) {
             $("#resultado").html(response);
         },
@@ -10,6 +11,7 @@ function consultarClientes() {
         }
     });
 }
+
 function insertar() {
 $.ajax({
     url: "insertar.jsp",

@@ -123,7 +123,7 @@ public class Principal {
             System.out.println("5. Salir");
             System.out.print("Opción: ");
             opcion = scanner.nextInt();
-            scanner.nextLine(); // Consume the remaining newline character
+            scanner.nextLine(); 
 
             switch (opcion) {
                 case 1:
